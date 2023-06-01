@@ -16,6 +16,7 @@ env:
   # An example value is https://db-sme-demo-docs.cloud.databricks.com/
   DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
 
+  
 jobs:
   unit-test-notebook:
     runs-on: ubuntu-latest
